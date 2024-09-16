@@ -6,9 +6,6 @@ import time
 
 app = Flask(__name__)
 
-# Load environment variables
-load_dotenv()
-
 # Get client ID and secret from environment variables
 client_id = "-9mNQLNIHMFPHlR1mqOomQ"
 client_secret = "CiaI_lwcRdSPTEi7JMsf4sRtilby1Q"
