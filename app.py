@@ -3,8 +3,6 @@ from flask import Flask, request, redirect, render_template, url_for, make_respo
 import praw
 from datetime import datetime
 import time
-import os
-from dotenv import load_dotenv
 
 app = Flask(__name__)
 
@@ -12,8 +10,8 @@ app = Flask(__name__)
 load_dotenv()
 
 # Get client ID and secret from environment variables
-client_id = os.getenv('CLIENT_ID')
-client_secret = os.getenv('CLIENT_SECRET')
+client_id = "-9mNQLNIHMFPHlR1mqOomQ"
+client_secret = "CiaI_lwcRdSPTEi7JMsf4sRtilby1Q"
 user_agent = "CleanSlate"
 redirect_uri = "http://http://www.bedomaster.tech/reddit_callback"
 all_scopes = ['creddits', 'edit', 'flair', 'history', 'identity', 'modconfig',
