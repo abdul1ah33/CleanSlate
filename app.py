@@ -15,7 +15,7 @@ load_dotenv()
 client_id = os.getenv('CLIENT_ID')
 client_secret = os.getenv('CLIENT_SECRET')
 user_agent = "CleanSlate"
-redirect_uri = "http://localhost:8080/reddit_callback"
+redirect_uri = "http://http://www.bedomaster.tech/reddit_callback"
 all_scopes = ['creddits', 'edit', 'flair', 'history', 'identity', 'modconfig',
               'modcontributors', 'modflair', 'modlog', 'modothers', 'modposts',
               'modself', 'modwiki', 'mysubreddits', 'privatemessages', 'read',
