@@ -7,8 +7,8 @@ import time
 app = Flask(__name__)
 
 # Get client ID and secret from environment variables
-client_id = "-9mNQLNIHMFPHlR1mqOomQ"
-client_secret = "CiaI_lwcRdSPTEi7JMsf4sRtilby1Q"
+client_id = "DUbQ1h6di0MExtMuvlmSaw"
+client_secret = "XP-gokzFgEt7aVePjP0vE71siYn1vQ"
 user_agent = "CleanSlate"
 redirect_uri = "http://http://www.bedomaster.tech/reddit_callback"
 all_scopes = ['creddits', 'edit', 'flair', 'history', 'identity', 'modconfig',
