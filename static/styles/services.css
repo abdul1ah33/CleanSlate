@@ -152,12 +152,14 @@ footer p {
 @media screen and (max-width: 768px) {
     .services {
         flex-direction: column;
-        gap: 20px;
+        align-items: center; /* Center the service cards */
         margin-top: 20px;
+        gap: 20px;
     }
 
     .service-card {
-        width: 100%;
+        width: 90%; /* Adjust the width for smaller devices */
+        max-width: 350px; /* Ensure it doesn't exceed a certain width */
     }
 }
 
