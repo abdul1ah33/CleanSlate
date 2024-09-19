@@ -10,7 +10,7 @@ app = Flask(__name__)
 client_id = "DUbQ1h6di0MExtMuvlmSaw"
 client_secret = "XP-gokzFgEt7aVePjP0vE71siYn1vQ"
 user_agent = "CleanSlate"
-redirect_uri = "http://www.bedomaster.tech/reddit_callback"
+redirect_uri = "http://34.239.255.169:8080/reddit_callback"
 all_scopes = ['creddits', 'edit', 'flair', 'history', 'identity', 'modconfig',
               'modcontributors', 'modflair', 'modlog', 'modothers', 'modposts',
               'modself', 'modwiki', 'mysubreddits', 'privatemessages', 'read',
@@ -38,6 +38,11 @@ def home():
 @app.route('/services')
 def services():
     return render_template('services.html')
+
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 
 @app.route('/reddit_auth')
